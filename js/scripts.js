@@ -7,7 +7,7 @@ $(document).ready(function(){
     $(".userName").text(getName);
     $(".userConsole").text(getConsole);
     $(".userMusic").text(getMusic);
-    $(".userColor").text(favoriteColor);
+    $("p").css("background-color", favoriteColor);
     event.preventDefault();
   });
 });
